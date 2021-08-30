@@ -3,11 +3,9 @@ import { withRouter } from 'react-router-dom';
 
 export const PokemonIndexItem = (props) => {
     return (
-        <ul>
-            <li>{props.name}</li>
-            <li>{props.image_url}</li>
-        </ul>
-        
+        <li>
+            {props.pokemon.name}
+            <img src= {props.pokemon.imageUrl} />
+        </li>
     )
-
 }
