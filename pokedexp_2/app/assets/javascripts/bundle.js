@@ -126,15 +126,18 @@ var requestAllPokemon = function requestAllPokemon() {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react_router__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react-router */ "./node_modules/react-router/esm/react-router.js");
-/* harmony import */ var _components_pokemon_pokemon_index_container__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./../components/pokemon/pokemon_index_container */ "./frontend/components/pokemon/pokemon_index_container.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router */ "./node_modules/react-router/esm/react-router.js");
+/* harmony import */ var _components_pokemon_pokemon_index_container__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./../components/pokemon/pokemon_index_container */ "./frontend/components/pokemon/pokemon_index_container.js");
+
 
 
 
 var App = function App() {
-  return /*#__PURE__*/React.createElement(react_router__WEBPACK_IMPORTED_MODULE_0__["Route"], {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router__WEBPACK_IMPORTED_MODULE_1__["Route"], {
     path: "/",
-    component: _components_pokemon_pokemon_index_container__WEBPACK_IMPORTED_MODULE_1__["default"]
+    component: _components_pokemon_pokemon_index_container__WEBPACK_IMPORTED_MODULE_2__["default"]
   });
 };
 
